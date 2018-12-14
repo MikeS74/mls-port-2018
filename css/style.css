@@ -1,0 +1,75 @@
+.phone-no {
+    font-family:
+        'Francois One',
+        sans-serif;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.left-bio {
+    font-family: 'Share Tech Mono', monospace;
+    float: left;
+    color: rgba(255, 255, 255, 0.7);
+    border: solid;
+    border-width: 1px;
+    padding: 10px;
+}
+
+.e-pitch {
+    float: right;
+    font-size: 18px;
+}
+
+.con-email {
+    font-family:
+        'Ropa Sans',
+        sans-serif;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.resume {
+    position: absolute;
+    right: 1%;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.m-san-box,
+#gh-img,
+#lnkdin-img,
+#email-img {
+    opacity: 0.0;
+
+}
+
+.img-links {
+    margin: 7%;
+    width: 16%
+}
+
+@media screen and (max-width: 991px) {
+    .img-links {
+        margin: 5%;
+        width: 7%
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .img-links {
+        margin: 5%;
+        width: 11%
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .m-san-box {
+        width: 70%
+    }
+
+    .con-email {
+        font-size: 6vw
+    }
+}
